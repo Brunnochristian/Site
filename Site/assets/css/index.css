@@ -1,0 +1,64 @@
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: #65009a;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#banner img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+
+#logo2 {
+    background-color: #65009a;
+    width: auto;
+    height: 600px;
+}
+
+
+#quem-somos {
+    display: flex;
+
+}
+
+#quem-somos > div.left {
+    width: 50%;
+    background-color: white;
+    padding: 100px
+    
+}
+
+#quem-somos > div.left img {
+    width: 350px;
+    margin-bottom: 70px;
+}
+
+#quem-somos > div.right img {
+    margin-top: 100px;
+}
+#quem-somos > div.left h1 {
+    margin-bottom: 40px;
+}
+#quem-somos > div.left p {
+    margin-bottom: 40px;
+    line-height: 2;
+    font-size: 18px;
+}
+
+#quem-somos > div.right {
+    width: 50%;
+    background-color: orange;
+    padding: 100px;
+}
+
+#quem-somos > div.right p {
+    line-height: 2;
+    font-size: 18px;
+}

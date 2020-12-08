@@ -1,0 +1,63 @@
+
+#logos  {
+    display: flex;
+}
+
+#logos div.left {
+    width: 50%;
+    height: 1350px;
+    background-color: white;
+    padding: 150px;
+}
+
+#logos div.left img.projetos {
+    width: 350px;
+    margin-bottom: 120px;
+    margin-top: -50px;
+}
+
+#logos div.left img {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+}
+
+#logos div.right {
+    width: 50%;
+    height: 1350px;
+    background-color: #65009a;  
+    padding: 150px;
+}
+
+#logos div.right img.lhamita {
+    width: 350px;
+    margin-top: 170px;
+}
+
+#logos div.right img {
+    display: flex;
+    flex-direction: column;
+    width: 300px; 
+}
+
+footer {
+    font-size: 20px;
+    padding: 100px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer img {
+    margin-bottom: 50px;
+    width: 400px;
+}
+
+footer p {
+    font-weight: 500;
+    width: 790px;
+    text-align: center;
+    color: black;
+}

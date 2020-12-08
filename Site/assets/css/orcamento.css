@@ -1,0 +1,73 @@
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: orange;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#banner img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+
+#orcamento {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 70px 25px;
+}
+#orcamento img {
+    width: 350px;
+    margin-bottom: 100px;
+}
+
+#orcamento > p {
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+#orcamento form {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#orcamento form input,
+#orcamento form textarea  {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px 14px;
+    margin-bottom: 20px;
+}
+
+#orcamento form > div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#orcamento form > div input {
+    width: calc(50% - 10px);
+}
+
+#orcamento form button {
+    padding: 14px 35px;
+    background-color: black;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #65009a;
+}
